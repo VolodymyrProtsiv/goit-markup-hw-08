@@ -1,0 +1,41 @@
+.header{
+    background-color: $bg-pr-col;
+    border-bottom: 1px solid$br-solid-col;
+
+    &__open__mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+
+
+@media screen and (max-width:767px){
+
+    .btn__mobile{
+        width: 40px;
+        height: 40px;
+
+        margin-left: auto;
+        border: 1px solid green;
+        background-color: transparent;
+
+        & .icon__menu__open{
+            display: block;
+
+            
+        }
+    }
+    
+
+        & .open-menu-btn .icon__menu__open{
+            display: block;
+        }
+
+        & .open-menu-btn .mob-menu{
+            display: block;
+        }
+}
