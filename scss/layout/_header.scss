@@ -23,19 +23,36 @@
         border: 1px solid green;
         background-color: transparent;
 
-        & .icon__menu__open{
-            display: block;
+         & .icon__menu__open{
+             display: block;
 
             
         }
+
+         & .open-menu-btn .icon__menu__open{
+             display: block;
+         }
+
+         & .open-menu-btn .mob-menu{
+             display: block;
+         }
+
+
+        .icon__mobile{
+            fill:currentColor;
+        }
     }
-    
 
-        & .open-menu-btn .icon__menu__open{
-            display: block;
-        }
+    .mob-menu .is-hidden .icon__menu__open{
+        display: block;
+    }
 
-        & .open-menu-btn .mob-menu{
-            display: block;
-        }
 }
+
+@media screen and (min-width:768px){
+    .btn__mobile{
+        display: none;
+    }
+}
+
+

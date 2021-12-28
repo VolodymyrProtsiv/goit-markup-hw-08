@@ -109,11 +109,23 @@ body {
   .btn__mobile .icon__menu__open {
     display: block;
   }
-  .open-menu-btn .icon__menu__open {
+  .btn__mobile .open-menu-btn .icon__menu__open {
     display: block;
   }
-  .open-menu-btn .mob-menu {
+  .btn__mobile .open-menu-btn .mob-menu {
     display: block;
+  }
+  .btn__mobile .icon__mobile {
+    fill: currentColor;
+  }
+  .mob-menu .is-hidden .icon__menu__open {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn__mobile {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
