@@ -4,7 +4,8 @@
     "sources": [
         "../scss/main.scss",
         "../scss/utils/_var.scss",
-        "../scss/utils/_reset.scss"
+        "../scss/utils/_reset.scss",
+        "../scss/utils/_brackpoint.scss"
     ],
     "names": [],
     "file": "main.css"
