@@ -1,7 +1,7 @@
 .header{
     position: relative;
     background-color: $bg-pr-col;
-    border-bottom: 1px solid$br-solid-col;
+    border-bottom: 1px solid $br-solid-col;
 
     &__open__mobile {
         display: flex;
@@ -11,12 +11,22 @@
     }
 }
 
+.mobile__menu__conteiner{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: $bg-pr-col;
+    width: 100vw;
+    height: 100vh;
+}
+
 
 
 
 @media screen and (max-width:767px){
 
     .btn__mobile{
+        
         width: 40px;
         height: 40px;
 
@@ -24,29 +34,18 @@
         border: 1px solid green;
         background-color: transparent;
 
-        //  & .icon__menu__open{
-        //     //  display: block;
-
-            
-        // }
-
-        //  & .open-menu-btn .icon__menu__open{
-        //     //  display: block;
-        //  }
-
-        //  & .open-menu-btn .mob-menu{
-        //     //  display: block;
-        //  }
+       
 
 
         .icon__mobile{
+            position: fixed;
+            top:10px;
+            right:15px;
             fill:currentColor;
         }
     }
 
-    // .mob-menu .is-hidden .icon__menu__open{
-    //     // display: block;
-    // }
+    
 
 }
 

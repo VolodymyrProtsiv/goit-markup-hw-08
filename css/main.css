@@ -497,6 +497,15 @@ body {
           justify-content: center;
 }
 
+.mobile__menu__conteiner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
 @media screen and (max-width: 767px) {
   .btn__mobile {
     width: 40px;
@@ -506,6 +515,9 @@ body {
     background-color: transparent;
   }
   .btn__mobile .icon__mobile {
+    position: fixed;
+    top: 10px;
+    right: 15px;
     fill: currentColor;
   }
 }
