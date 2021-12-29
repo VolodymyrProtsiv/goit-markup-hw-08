@@ -218,20 +218,8 @@ body {
     border: 1px solid green;
     background-color: transparent;
   }
-  .btn__mobile .icon__menu__open {
-    display: block;
-  }
-  .btn__mobile .open-menu-btn .icon__menu__open {
-    display: block;
-  }
-  .btn__mobile .open-menu-btn .mob-menu {
-    display: block;
-  }
   .btn__mobile .icon__mobile {
     fill: currentColor;
-  }
-  .mob-menu .is-hidden .icon__menu__open {
-    display: block;
   }
 }
 
@@ -526,6 +514,10 @@ body {
   padding: 60px 0;
 }
 
+.footer__contact--size {
+  margin-bottom: 60px;
+}
+
 .footer__par {
   font-weight: 500;
   font-size: 14px;
@@ -540,16 +532,43 @@ body {
   margin-bottom: 6px;
 }
 
-.footer__item {
+.footer__network--size {
+  margin-bottom: 60px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address__item {
+  color: greenyellow;
+}
+
+.address__item--size {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.address__link {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: green;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__itemsize {
-  margin-bottom: 8px;
+.footer__tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__tittle--size {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
