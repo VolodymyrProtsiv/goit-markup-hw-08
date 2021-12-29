@@ -925,7 +925,7 @@ body {
       flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .list__filtr {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1036,8 +1036,8 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
-  -webkit-transform: translateY(101%);
-          transform: translateY(101%);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1045,7 +1045,7 @@ body {
 }
 
 .portfolio__cards__text--size {
-  padding: 63px 24px;
+  padding: 49px 24px;
 }
 
 .link__portfolio:hover .portfolio__cards__text,
@@ -1056,6 +1056,10 @@ body {
 
 .conteiner--portfolio {
   padding: 20px 24px;
+}
+
+.conteiner--portfolio__first {
+  padding-bottom: 56px;
 }
 
 .portfolio__item__tittle {

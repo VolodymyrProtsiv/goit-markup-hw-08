@@ -1,5 +1,6 @@
 // Filt-portfolio
 .section__filtr {
+  
     
     background-color:$bg-pr-col;
     &--size{
@@ -9,9 +10,10 @@
   
   .list__filtr {
     display: flex;
-    
     flex-wrap: wrap;
-    @media screen  and (min-width:768){
+    
+    @media screen  and (min-width:768px){
+        
         justify-content: center;
 
         &--size{
@@ -142,12 +144,12 @@
     
       color: $bg-pr-col;
       background-color: rgba(33, 150, 243, 0.9);
-      transform: translateY(101%);
+      transform: translateY(100%);
     
       transition: transform $pr-transition;
   
       &--size{
-        padding: 63px 24px;
+        padding: 49px 24px;
   
       }
 
@@ -163,6 +165,8 @@
   
   .conteiner--portfolio {
     padding: 20px 24px;
+    
+
   }
   
   .portfolio__item__tittle {
