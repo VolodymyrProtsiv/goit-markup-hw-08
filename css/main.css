@@ -532,10 +532,6 @@ body {
   margin-bottom: 30px;
 }
 
-.address {
-  font-style: normal;
-}
-
 .footer__par {
   font-weight: normal;
   font-size: 14px;
@@ -546,5 +542,21 @@ body {
 
 .footer__par--size {
   margin-bottom: 9px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer__item--size {
+  margin-bottom: 10px;
+}
+
+.footer__network {
+  text-align: center;
+}
+
+.footer__network-- {
+  margin-bottom: 60px;
 }
 /*# sourceMappingURL=main.css.map */
