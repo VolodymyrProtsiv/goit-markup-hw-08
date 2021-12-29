@@ -105,8 +105,8 @@
        
     }
 }
-
-.list__pl__tittle__item{
+@media screen and(min-width:768px){
+  .list__pl__tittle__item{
     border: 1px solid$hed-sol-col;
     width: calc((100% - 30px) / 2);
             margin-right: 30px;
@@ -116,6 +116,8 @@
             }
 
 }
+}
+
 // width: 370px;  1200px
   
   .link__portfolio {
@@ -131,7 +133,7 @@
     &__text {
       position: absolute;
       top: 0;
-      right: 0;
+      left: 0;
     
       
       height: 100%;

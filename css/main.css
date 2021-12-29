@@ -1000,15 +1000,16 @@ body {
   margin-bottom: 30px;
 }
 
-.list__pl__tittle__item {
-  border: 1px solid #ececec;
-  width: calc((100% - 30px) / 2);
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.list__pl__tittle__item:nth-child(2n) {
-  margin-right: 0;
+@media screen and (min-width: 768px) {
+  .list__pl__tittle__item {
+    border: 1px solid #ececec;
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .list__pl__tittle__item:nth-child(2n) {
+    margin-right: 0;
+  }
 }
 
 .link__portfolio {
@@ -1027,7 +1028,7 @@ body {
 .portfolio__cards__text {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   height: 100%;
   font-weight: 400;
   font-size: 18px;
@@ -1056,10 +1057,6 @@ body {
 
 .conteiner--portfolio {
   padding: 20px 24px;
-}
-
-.conteiner--portfolio__first {
-  padding-bottom: 56px;
 }
 
 .portfolio__item__tittle {
