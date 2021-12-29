@@ -190,4 +190,100 @@ body {
 .hero__conteiner {
   text-align: center;
 }
+
+.skills__sections {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.skills__item {
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .skills__item {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skills__item {
+    width: 270px;
+  }
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.skills__item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skills__tittle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.skills__tittle--size {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .skills__tittle {
+    text-align: center;
+  }
+}
+
+.skills__par {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Befor icond */
+.icon__locator::before {
+  content: "";
+  background-image: url(../img/skills-before/antenna.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+
+.icon__clock::before {
+  content: "";
+  background-image: url(../img/skills-before/clock.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+
+.icon__laptop::before {
+  content: "";
+  background-image: url(../img/skills-before/diagram.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+
+.icon__spaceman::before {
+  content: "";
+  background-image: url(../img/skills-before/astronaut.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
 /*# sourceMappingURL=main.css.map */

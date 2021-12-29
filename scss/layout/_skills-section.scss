@@ -1,0 +1,113 @@
+.skills__sections{
+    padding: 60px 0;
+    background-color: $bg-pr-col;
+}
+
+    .skills__list{
+        
+        
+
+    }
+  .skills__item {
+
+    width: 100%;
+        @media screen and (min-width:480px){
+            width: 450px;
+        }
+
+
+
+
+        @media screen and (min-width:1200px){
+            width: 270px;
+        }
+    
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    &::before {
+      display: block;
+      content: "";
+      height: 120px;
+      margin-bottom: 30px;
+      background-color: $bg-lightgrey-col;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+
+  }
+
+  .skills__tittle {
+    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $pr-col-txt;
+
+    &--size{
+      margin-bottom: 10px;
+
+    }
+
+    @media screen and (max-width:767px){
+        text-align: center;
+    }
+
+
+  }
+
+
+  .skills__par {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $second-col-txt;
+  }
+  
+  
+  
+  
+  /* Befor icond */
+  .icon__locator::before {
+    content: "";
+  
+    background-image: url(../img/skills-before/antenna.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+  
+  .icon__clock::before {
+    content: "";
+  
+    background-image: url(../img/skills-before/clock.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+  
+  .icon__laptop::before {
+    content: "";
+  
+    background-image: url(../img/skills-before/diagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+  .icon__spaceman::before {
+    content: "";
+  
+    background-image: url(../img/skills-before/astronaut.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+  
+  
