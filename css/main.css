@@ -379,6 +379,16 @@ body {
   padding: 60px 0;
 }
 
+.team__list {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .team__list {
+    width: 470px;
+  }
+}
+
 .section__tittle {
   font-weight: 700;
   font-size: 28px;
