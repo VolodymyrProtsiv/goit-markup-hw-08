@@ -1,0 +1,35 @@
+.section--hero{
+    padding: 118px 0;
+    background-image: linear-gradient(
+        to right,
+        $bg-hero,
+        $bg-hero
+      ), url(../img/hero-section/header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__tittle{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $bg-pr-col;
+
+    &--size{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width:480px){
+        width: 360px;
+
+    }
+}
+
+.hero__conteiner{
+    text-align: center;
+}
