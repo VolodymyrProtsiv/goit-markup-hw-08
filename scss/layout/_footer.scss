@@ -44,17 +44,32 @@
         }
     }  
 
-    // DIV-footer-form  
+    &__form__btn {
+        display: inline-flex;
+        align-items: center;
+        
+  
+        &--size{
+          padding: 10px 22px;
+        }
+        
+        &:hover,
+        &:focus {
+        background-color: var(--hover-btn-col);
+        box-shadow: 0px 4px 4px var(--sw-btn);
+      }
 
     
 }
+
+// DIV-footer-contact-address
 .address{
     font-style: normal;
 
    
 
     &__item{
-        color: greenyellow;
+       
 
         &--size{
             display: block;
@@ -79,8 +94,6 @@
 }
 
 
-// soc-network-footer
-
 .footer__tittle{
 
     font-weight:700;
@@ -96,4 +109,49 @@
         margin-bottom: 20px;
 
     }
+}
+
+// footer-form
+
+
+  
+.footer__form {
+    
+    fill: $icon-pr-col;
+  }
+  
+  &__input {
+    width: 100%;
+    height: 50px;
+   
+    
+    border-radius: 4px;
+    border: 1px solid $br-solid-col;
+    outline: none;
+  
+    color:$br-solid-col;
+
+    background-color: transparent;
+    cursor: pointer;
+
+    &--size{
+        padding: 15px 16px;
+        margin-bottom: 20px;
+
+    }
+
+    &:focus,
+    &:hover {
+      border: 1px solid $hover-btn-col;
+    }
+  }
+  
+  .icon-send {
+    fill: currentColor;
+  }
+  .footer-icon-conteiner {
+    display: flex;
+   
+    margin-left: 10px;
+  }
 }
