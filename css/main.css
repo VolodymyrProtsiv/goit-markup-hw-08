@@ -38,6 +38,14 @@ body {
   color: #212121;
 }
 
+.logo--footer {
+  margin-bottom: 20px;
+}
+
+.logo__part__footer {
+  color: #ffffff;
+}
+
 .link {
   text-decoration: none;
   cursor: pointer;
@@ -508,12 +516,20 @@ body {
 }
 
 .footer {
-  padding: 60px 0px;
+  margin: 0 auto;
   background-color: #2f303a;
 }
 
-.conteiner__footer--size__contact {
-  margin-right: 70px;
+.footer--size {
+  padding: 60px 0px;
+}
+
+.footer__contact {
+  text-align: center;
+}
+
+.footer__contact--size {
+  margin-bottom: 30px;
 }
 
 .address {

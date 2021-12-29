@@ -1,23 +1,67 @@
 .footer {
-    padding: 60px 0px;
-    background-color: $bg-second-col;
-  }
-  .conteiner__footer--size__contact {
-    margin-right: 70px;
-  }
-  
-  .address {
-    font-style: normal;
-  }
-  
-  .footer__par {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: $bg-pr-col;
-
+    margin: 0 auto;
     &--size{
-    margin-bottom: 9px;
-    }       
-  }
+        padding: 60px 0px;
+    }
+   
+    background-color: $bg-second-col;
+
+    &__contact{
+
+        text-align: center;
+    
+        &--size{
+        margin-bottom: 30px;
+        }
+    }
+
+    &__par {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: $bg-pr-col;
+    
+        &--size{
+        margin-bottom: 9px;
+        }       
+    }
+
+}
+.link__item {
+      
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $link-col;
+
+
+  
+   
+  
+    transition: color $pr-transition;
+  
+    
+   
+    
+    &:hover,
+    &:focus {
+      color: $accent-col;
+    }
+}  
+
+.address {
+    font-style: normal;
+}
+  
+
+ 
+
+
+  
+  

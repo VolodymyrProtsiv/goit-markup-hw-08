@@ -14,4 +14,12 @@
         &__part__header{
             color: $pr-col-txt;
         }
+
+        &--footer{
+            margin-bottom: 20px;
+        }
+
+        &__part__footer{
+            color: $bg-pr-col;
+        }
 }
