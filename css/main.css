@@ -157,13 +157,16 @@ body {
   }
 }
 
-.section--hero {
-  padding: 118px 0;
+.section__hero {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/hero-section/header-img.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-section/header-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.section__hero--size {
+  padding: 118px 0;
 }
 
 .hero__tittle {
@@ -192,8 +195,11 @@ body {
 }
 
 .skills__sections {
+  background-color: #f5f4fa;
+}
+
+.skills__sections--size {
   padding: 60px 0;
-  background-color: #ffffff;
 }
 
 .skills__item {

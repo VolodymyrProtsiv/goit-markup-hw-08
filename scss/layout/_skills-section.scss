@@ -1,13 +1,12 @@
 .skills__sections{
-    padding: 60px 0;
-    background-color: $bg-pr-col;
+    
+    background-color:  $bg-lightgrey-col;
+    &--size{
+      padding: 60px 0;
+    }
 }
 
-    .skills__list{
-        
-        
-
-    }
+    
   .skills__item {
 
     width: 100%;

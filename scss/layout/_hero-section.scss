@@ -1,5 +1,5 @@
-.section--hero{
-    padding: 118px 0;
+.section__hero{
+    
     background-image: linear-gradient(
         to right,
         $bg-hero,
@@ -8,6 +8,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    &--size{
+        padding: 118px 0;
+    }
 }
 
 .hero__tittle{
