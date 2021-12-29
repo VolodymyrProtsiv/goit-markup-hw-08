@@ -506,4 +506,29 @@ body {
 .clients-icon {
   fill: currentColor;
 }
+
+.footer {
+  padding: 60px 0px;
+  background-color: #2f303a;
+}
+
+.conteiner__footer--size__contact {
+  margin-right: 70px;
+}
+
+.address {
+  font-style: normal;
+}
+
+.footer__par {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer__par--size {
+  margin-bottom: 9px;
+}
 /*# sourceMappingURL=main.css.map */

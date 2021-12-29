@@ -1,0 +1,23 @@
+.footer {
+    padding: 60px 0px;
+    background-color: $bg-second-col;
+  }
+  .conteiner__footer--size__contact {
+    margin-right: 70px;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  
+  .footer__par {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $bg-pr-col;
+
+    &--size{
+    margin-bottom: 9px;
+    }       
+  }
