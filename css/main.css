@@ -195,7 +195,7 @@ body {
 }
 
 .skills__sections {
-  background-color: #f5f4fa;
+  background-color: #ffffff;
 }
 
 .skills__sections--size {
@@ -291,5 +291,74 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px 70px;
+}
+
+.we-do__section {
+  display: none;
+}
+
+.team__section {
+  background-color: #f5f4fa;
+}
+
+.team__section--size {
+  padding: 60px 0;
+}
+
+.section__tittle {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.section__tittle--size {
+  margin-bottom: 30px;
+}
+
+.team__item {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.team__item--size {
+  margin-bottom: 30px;
+}
+
+.team__conteiner {
+  background-color: #ffffff;
+}
+
+.team__conteiner--size {
+  padding: 30px 32px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__tittle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team__tittle--size {
+  margin-bottom: 10px;
+}
+
+.team__par {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team__par--size {
+  margin-bottom: 16px;
 }
 /*# sourceMappingURL=main.css.map */

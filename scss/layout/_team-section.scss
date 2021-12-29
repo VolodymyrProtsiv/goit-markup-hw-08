@@ -1,0 +1,71 @@
+.team__section{
+    background-color: $bg-lightgrey-col;
+    &--size{
+        padding: 60px 0;
+    }
+}
+.section__tittle{
+
+   font-weight:700;
+    font-size: 28px;
+    line-height: 1.2;
+
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $pr-col-txt;
+    &--size{
+        margin-bottom: 30px;
+    }
+
+}
+
+
+.team__item {
+   
+    box-shadow:$sw-sect-team;
+
+
+    &--size{
+        margin-bottom: 30px;
+    }
+
+     
+  }
+
+  .team__conteiner {
+    background-color: $bg-pr-col;
+
+    &--size{
+      padding: 30px 32px;
+      border-radius: 0px 0px 4px 4px;
+    }
+  }
+  .team__tittle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $pr-col-txt;
+
+    &--size{
+      margin-bottom: 10px;
+    }
+   
+  }
+  .team__par {
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: $second-col-txt;
+
+    &--size{
+      margin-bottom: 16px;
+    }
+  }
