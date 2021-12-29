@@ -50,6 +50,7 @@ body {
 .conteiner {
   padding-right: 15px;
   padding-left: 15px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -377,16 +378,6 @@ body {
 
 .team__section--size {
   padding: 60px 0;
-}
-
-.team__list {
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) {
-  .team__list {
-    width: 470px;
-  }
 }
 
 .section__tittle {
