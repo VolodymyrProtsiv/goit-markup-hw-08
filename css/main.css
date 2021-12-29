@@ -984,14 +984,12 @@ body {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768) {
-  .list__pl__tittle {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.list__pl__tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .list__pl__tittle__item {
@@ -1003,6 +1001,7 @@ body {
 }
 
 .list__pl__tittle__item {
+  border: 1px solid #ececec;
   width: calc((100% - 30px) / 2);
   margin-right: 30px;
   margin-bottom: 30px;

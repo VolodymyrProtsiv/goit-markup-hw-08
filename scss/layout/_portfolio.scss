@@ -79,14 +79,13 @@
 // cards-portfolio
 
 .list__pl__tittle {
-    // border: 1px solid$hed-sol-col;
+    
 
-    @media screen and(min-width:768){
         display: flex;  
         flex-wrap: wrap;
 
        
-    }
+    
      &__item {
     position: relative;
         
@@ -106,6 +105,7 @@
 }
 
 .list__pl__tittle__item{
+    border: 1px solid$hed-sol-col;
     width: calc((100% - 30px) / 2);
             margin-right: 30px;
             margin-bottom: 30px;
