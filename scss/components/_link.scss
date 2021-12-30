@@ -1,4 +1,10 @@
 .link{
     text-decoration: none;
     cursor:pointer;
+
+    &--active{
+        
+        color:  $accent-col;
+        
+    }
 }
