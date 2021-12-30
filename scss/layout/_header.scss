@@ -243,7 +243,7 @@
         &--link{
             position: relative;
 
-            padding: 32px 0;
+             padding: 32px 0;
 
             display: block;
             font-weight: 500;
@@ -257,17 +257,7 @@
        
     }
 
-    // contact-header
-    .contact__header{
-
-        &--size{
-            padding: 21px 0;
-        }
-
-        &--item{
-            margin-bottom: 10px;
-        }
-    }
+   
 
     // active
     .active{
@@ -288,6 +278,89 @@
           background-color: $accent-col;
         }
     }
+
+     // contact-header
+     .contact__header{
+         display: block;
+         
+
+         margin-left: auto;
+
+        &--size{
+            // padding: 21px 0;
+        }
+
+        &--item{
+            margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+        &--link{
+            display: inline-flex;
+            
+           
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.1;
+            letter-spacing: 0.02em;
+
+            color:$second-col-txt;
+
+            transition: color $pr-transition;
+
+            &:hover,
+            &:focus {
+                color: $accent-col;
+             }
+        }
+    }
+
+    .icon__postbox {
+        fill: currentColor;
+        margin-right: 10px;
+    
+            &:hover,
+            &:focus{
+            color: $hover-btn-col;
+        }
+      }
+      
+      .icon__mobtel {
+        fill: currentColor;
+        margin-right: 10px;
+    
+            &:hover,
+            &:focus{
+            color: $hover-btn-col;
+        }
+      }
+    
+}
+
+
+// min-width-1200px
+
+@media screen and (min-width:1200px){
+    .contact__header{
+        display: flex;
+
+        &--item{
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        &--link{
+            
+            align-items: center;
+        }
+    }
+
+    
+
     
 }
 
