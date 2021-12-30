@@ -20,6 +20,9 @@
     .nav__header{
         display: none;
     }
+    .contact__header{
+        display: none;
+    }
    
 
 
@@ -247,16 +250,11 @@
 
        
     }
+
+    // active
     .active{
         color: $accent-col;
     }
-    
-    
-
-
-
-
-
     
 }
 

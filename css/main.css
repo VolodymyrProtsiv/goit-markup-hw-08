@@ -498,6 +498,9 @@ body {
   .nav__header {
     display: none;
   }
+  .contact__header {
+    display: none;
+  }
   .btn__mobile {
     width: 40px;
     height: 40px;
