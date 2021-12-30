@@ -13,11 +13,11 @@
 
 
 
-
+// max-width-767px
 
 @media screen and (max-width:767px){
    
-    .menu__conteiner{
+    .nav__header{
         display: none;
     }
    
@@ -200,7 +200,7 @@
 }
 
 
-// min-width-767px
+// min-width-768px
 
 @media screen and (min-width:768px){
     .btn__mobile{
@@ -210,15 +210,48 @@
         display: none;
     }
 
-    .header__open__mobile{
-         display: block;
+    
+
+    // nav-header
+
+    .logo{
+        &--size{
+            margin-right: 88px;
+        }
     }
 
-
-
-    .menu__conteiner{
+    .nav__header{
         display: flex;
+
+        &--list{
+            display: flex;
+            
+        }
+
+        &--item{
+            margin-right: 50px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        &--link{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+
+            color: $pr-col-txt;
+        }
+
+       
     }
+    .active{
+        color: $accent-col;
+    }
+    
+    
 
 
 
