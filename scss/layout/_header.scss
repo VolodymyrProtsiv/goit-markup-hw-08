@@ -108,6 +108,7 @@
         }
 
         &__link{
+            
            
             font-weight: 500;
             font-size: 40px;
@@ -126,6 +127,12 @@
 
         }
     }
+
+     // active
+     .active__mob{
+        
+        color: $accent-col;
+     }
 
     // bottom-menu
     .contacts__list{
@@ -271,8 +278,9 @@
         color: $accent-col;
 
         &::after {
+            position: absolute;
             display: block;
-          position: absolute;
+          
           right: 0;
           bottom: -1px;
         
@@ -293,9 +301,7 @@
 
          margin-left: auto;
 
-        &--size{
-            // padding: 21px 0;
-        }
+        
 
         &--item{
             margin-bottom: 10px;

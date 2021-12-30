@@ -11,6 +11,18 @@
 
     &--size{
         padding: 118px 0;
+
+        
+    
+        @media screen and (min-width:768px){
+            
+            
+        }
+    
+        @media screen and (min-width:1200px){
+            padding: 200px 0;
+            
+        }
     }
 }
 

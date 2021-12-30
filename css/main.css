@@ -575,6 +575,9 @@ body {
   .nav__item__link:focus, .nav__item__link:hover {
     color: #2196f3;
   }
+  .active__mob {
+    color: #2196f3;
+  }
   .contacts__list--size {
     margin-bottom: 64px;
   }
@@ -672,8 +675,8 @@ body {
     color: #2196f3;
   }
   .active::after {
-    display: block;
     position: absolute;
+    display: block;
     right: 0;
     bottom: -1px;
     content: "";
@@ -759,6 +762,12 @@ body {
 
 .section__hero--size {
   padding: 118px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .section__hero--size {
+    padding: 200px 0;
+  }
 }
 
 .hero__tittle {
