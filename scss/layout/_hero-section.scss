@@ -1,29 +1,74 @@
 .section__hero{
-    
+    max-width: 1600px;
+    margin: 0 auto;
     background-image: linear-gradient(
         to right,
         $bg-hero,
         $bg-hero
       ), url(../img/hero-section/header-img.jpg);
+
+      @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) 
+        {
+        background-image: linear-gradient(
+            to right,
+            $bg-hero,
+            $bg-hero) url(../img/hero-section/2x-header-img.jpg);
+        }
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+    @media screen and (min-width:768px){
+        width: 100%;
+        
+        background-image: linear-gradient(
+            to right,
+            $bg-hero,
+            $bg-hero
+        ), url(../img/hero-section/header-tablet-img.jpg);
+
+        @media screen and (min-device-pixel-ratio: 2),
+                screen and (min-resolution: 192dpi),
+                screen and (min-resolution: 2dppx) 
+                {
+                background-image: linear-gradient(
+                    to right,
+                    $bg-hero,
+                    $bg-hero) url(../img/hero-section/2x-header-tablet-img.jpg);
+            }
+    }
+
+                @media screen and (min-width:1200px){
+                width: 100%;
+                background-image: linear-gradient(
+                    to right,
+                    $bg-hero,
+                    $bg-hero
+                ), url(../img/hero-section/desctop-img.jpg);
+    
+                @media screen and (min-device-pixel-ratio: 2),
+                    screen and (min-resolution: 192dpi),
+                    screen and (min-resolution: 2dppx) 
+                    {
+                    background-image: linear-gradient(
+                        to right,
+                        $bg-hero,
+                        $bg-hero) url(../img/hero-section/2x-desctop-img.jpg);
+                    }
+                }                  
+
     &--size{
         padding: 118px 0;
-
-        
-    
-        @media screen and (min-width:768px){
-            
-            
-        }
+    }
     
         @media screen and (min-width:1200px){
+
             padding: 200px 0;
             
         }
-    }
+    
 }
 
 .hero__tittle{
@@ -36,6 +81,8 @@
 
     color: $bg-pr-col;
 
+    
+
     &--size{
         margin: 0 auto;
         margin-bottom: 30px;
@@ -44,6 +91,19 @@
         width: 360px;
 
     }
+
+    @media screen and (min-width:1200px){
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+
+        &--size{
+            width: 606px;
+        }
+    } 
+
+
+
 }
 
 .hero__conteiner{

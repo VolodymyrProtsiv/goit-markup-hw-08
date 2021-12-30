@@ -213,6 +213,9 @@
 // min-width-768px
 
 @media screen and (min-width:768px){
+    .mobile__menu__conteiner{
+        display: none;
+    }
     .btn__mobile{
         display: none;
     }
