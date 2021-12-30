@@ -1,4 +1,6 @@
 .logo{
+    display: block;
+
     font-family: Raleway;
     font-weight: 700;
     font-size: 24px;
@@ -13,7 +15,7 @@
             
                 @media screen and (min-width:768px) {
                     margin-right: 88px;
-                    padding: 26px 0;
+                    padding: 20px 0;
 
                     
                     
@@ -21,10 +23,10 @@
 
                 @media screen and (min-width:1200px) {
                     font-size: 26px;
-                    line-height: 31px;
+                    line-height: 1.2;
 
-
-                    padding: 27px 0;
+                    padding: 24px 0;
+                    
                 }
                     
                 
