@@ -499,6 +499,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .menu__conteiner {
+    display: none;
+  }
   .btn__mobile {
     width: 40px;
     height: 40px;
@@ -633,6 +636,11 @@ body {
   }
   .header__open__mobile {
     display: block;
+  }
+  .menu__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
