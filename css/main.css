@@ -635,6 +635,7 @@ body {
   }
   .logo--size {
     margin-right: 88px;
+    padding: 14px 0;
   }
   .nav__header {
     display: -webkit-box;
@@ -653,14 +654,34 @@ body {
     margin-right: 0;
   }
   .nav__header--link {
+    position: relative;
+    padding: 32px 0;
+    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
   }
+  .contact__header--size {
+    padding: 21px 0;
+  }
+  .contact__header--item {
+    margin-bottom: 10px;
+  }
   .active {
     color: #2196f3;
+  }
+  .active::after {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    content: "";
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #2196f3;
   }
 }
 
