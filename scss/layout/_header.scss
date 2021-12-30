@@ -252,6 +252,13 @@
             letter-spacing: 0.02em;
 
             color: $pr-col-txt;
+
+            transition: color $pr-transition;
+
+            &:hover,
+            &:focus {
+                color: $accent-col;
+             }
         }
 
        
@@ -343,11 +350,23 @@
 // min-width-1200px
 
 @media screen and (min-width:1200px){
+
+    // nav-header
+    .nav__header{
+
+        &--link{
+            display: block;
+            padding: 35px 0px;
+        }
+    }
+
+    // contact-header
     .contact__header{
         display: flex;
 
         &--item{
             margin-right: 30px;
+            margin-bottom: 0;
             &:last-child{
                 margin-right: 0;
             }
@@ -356,6 +375,8 @@
         &--link{
             
             align-items: center;
+            padding-top: 35px;
+            padding-bottom: 35px;
         }
     }
 
