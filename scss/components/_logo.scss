@@ -9,6 +9,26 @@
 
         &--size{
             padding: 16px 0;
+
+            
+                @media screen and (min-width:768px) {
+                    margin-right: 88px;
+                    padding: 26px 0;
+
+                    
+                    
+                }
+
+                @media screen and (min-width:1200px) {
+                    font-size: 26px;
+                    line-height: 31px;
+
+
+                    padding: 27px 0;
+                }
+                    
+                
+            
         }
 
         &__part__header{

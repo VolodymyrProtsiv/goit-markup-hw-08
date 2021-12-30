@@ -34,6 +34,21 @@ body {
   padding: 16px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .logo--size {
+    margin-right: 88px;
+    padding: 26px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo--size {
+    font-size: 26px;
+    line-height: 31px;
+    padding: 27px 0;
+  }
+}
+
 .logo__part__header {
   color: #212121;
 }
@@ -638,10 +653,6 @@ body {
   }
   .social__list {
     display: none;
-  }
-  .logo--size {
-    margin-right: 88px;
-    padding: 14px 0;
   }
   .nav__header {
     display: -webkit-box;
