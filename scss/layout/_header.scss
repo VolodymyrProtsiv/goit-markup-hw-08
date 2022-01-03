@@ -86,6 +86,8 @@
         background-color: $bg-pr-col;
 
         padding: 48px 40px;
+        z-index: 999;
+        pointer-events: none;
        
         @media screen  and(min-width:480px){
             padding: 48px 40px;
