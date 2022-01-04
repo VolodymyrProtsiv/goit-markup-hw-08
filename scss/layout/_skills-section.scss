@@ -12,12 +12,18 @@
         display: flex;
         flex-wrap: wrap;
         
+        @media screen and (min-width:1200px){
+          flex-wrap: nowrap;
+        }
+        
         
 
       }
 
 
     }
+   
+
 
 
     
@@ -49,11 +55,9 @@
         @media screen and (min-width:1200px){
             width: 270px;
 
-            width: calc((100% - 90px) / 4);
-            
-            margin-bottom: 0px;
-            &:last-child {
-            margin-right: 0;
+
+            &:not(:last-child) {
+              margin-right: 30px;
             }
 
 
