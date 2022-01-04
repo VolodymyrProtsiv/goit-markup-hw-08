@@ -5,6 +5,20 @@
       padding: 60px 0;
     }
 }
+    @media screen and (min-width:768px){
+      
+
+      .skills__list{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+
+      }
+
+
+    }
+
 
     
   .skills__item {
@@ -12,13 +26,38 @@
     width: 100%;
         @media screen and (min-width:480px){
             width: 450px;
+
+            
         }
 
+        @media screen and (min-width:768px){
+           width: 354px;
 
+
+           width: calc((100% - 30px) / 2);
+            margin-right: 30px;
+            margin-bottom: 30px;
+           &:nth-child(2n) {
+             margin-right: 0;
+          }
+          
+
+
+      }
 
 
         @media screen and (min-width:1200px){
             width: 270px;
+
+            width: calc((100% - 90px) / 4);
+            
+            margin-bottom: 0px;
+            &:last-child {
+            margin-right: 0;
+            }
+
+
+
         }
     
 
