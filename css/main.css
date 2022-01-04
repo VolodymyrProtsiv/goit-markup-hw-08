@@ -242,7 +242,7 @@ body {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 450px;
-    height: 609px;
+    height: auto;
   }
 }
 
@@ -366,8 +366,8 @@ body {
   left: 12px;
   fill: currentColor;
   cursor: pointer;
-  -webkit-transition: fill var(--pr-transition);
-  transition: fill var(--pr-transition);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input:hover ~ .modal__icon,
@@ -467,7 +467,7 @@ body {
           justify-content: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 8px;
+  font-size: 9px;
   line-height: 0.8;
   letter-spacing: 0.03em;
   color: #757575;
@@ -483,7 +483,7 @@ body {
 @media screen and (min-width: 1200px) {
   .modal__checkbox {
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.7;
   }
 }
 

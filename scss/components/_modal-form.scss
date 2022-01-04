@@ -111,7 +111,7 @@
    fill: currentColor;
    cursor: pointer;
 
-   transition: fill var(--pr-transition);
+   transition: fill$pr-transition;
 
    .modal__input:hover ~ &,
    .modal__input:focus ~ & {
@@ -197,7 +197,7 @@
 
    font-style: normal;
    font-weight: normal;
-   font-size: 8px;
+   font-size: 9px;
    line-height: 0.8;
    letter-spacing: 0.03em;
    @media screen and(min-width:480px) {
@@ -207,7 +207,7 @@
    }
    @media screen and(min-width:1200px) {
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.7;
      
    }
 
