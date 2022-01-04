@@ -22,21 +22,64 @@
 
 .clients__list {
     display: flex;
-    flex-wrap: wrap;
+    @media screen and (max-width:1199px){
+      flex-wrap: wrap;
+    }
+    
+
+    
+
+    
 
     
   }
 
   .clients__item{
+    
+      
+        
+        
+        
+        
+      
+   
+
+    
       &--size{
-        width: calc((100% - 30px) / 2);
         margin-right: 30px;
         margin-bottom: 30px;
-        &:nth-child(2n) {
+
+        
+          width: calc((100% - 30px) / 2);
+        
+          
+           &:nth-child(2n) {
             margin-right: 0;
           }
-          
-         
+        
+
+
+
+        @media screen and (min-width:768px){
+          width: calc((100% - 60px) / 3);
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+        
+        
+        
+
+        @media screen and (min-width:1200){
+          width: calc((100% - 150px) / 6);
+          &:nth-child(6n) {
+            margin-right: 0;
+          }
+        
+
+        }
+        
+
       }
   }
   

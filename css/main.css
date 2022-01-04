@@ -1151,18 +1151,41 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .clients__item--size {
-  width: calc((100% - 30px) / 2);
   margin-right: 30px;
   margin-bottom: 30px;
+  width: calc((100% - 30px) / 2);
 }
 
 .clients__item--size:nth-child(2n) {
   margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .clients__item--size {
+    width: calc((100% - 60px) / 3);
+  }
+  .clients__item--size:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1200) {
+  .clients__item--size {
+    width: calc((100% - 150px) / 6);
+  }
+  .clients__item--size:nth-child(6n) {
+    margin-right: 0;
+  }
 }
 
 .clients__link {
