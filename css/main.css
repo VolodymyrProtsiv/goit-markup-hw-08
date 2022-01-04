@@ -96,6 +96,11 @@ body {
   .conteiner {
     width: 1200px;
   }
+  .conteiner--footer {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .is-hidden {
@@ -1198,12 +1203,57 @@ body {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer {
+    text-align: start;
+  }
+}
+
 .footer--size {
   padding: 60px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__tb_conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 76px;
+    padding-left: 76px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__tb_conteiner {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__desk__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+  }
+}
+
 .footer__contact--size {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__contact--size {
+    margin-bottom: 0px;
+    margin-right: 70px;
+  }
 }
 
 .footer__par {
@@ -1222,6 +1272,12 @@ body {
 
 .footer__network--size {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__network--size {
+    margin-bottom: 0px;
+  }
 }
 
 .footer__form__btn {
@@ -1275,7 +1331,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (vin-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer .footer__form__conteiner {
     width: 450px;
     margin: auto;
@@ -1284,6 +1340,14 @@ body {
 
 .footer .footer__form {
   fill: #afb1b8;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .footer__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .footer__input {
@@ -1297,20 +1361,32 @@ body {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__input {
+    width: 370px;
+  }
+}
+
 .footer__input--size {
   padding: 15px 16px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__input--size {
+    margin-bottom: 0px;
+  }
 }
 
 .footer__input:focus, .footer__input:hover {
   border: 1px solid #188ce8;
 }
 
-.footer .icon-send {
+.icon-send {
   fill: currentColor;
 }
 
-.footer .footer-icon-conteiner {
+.footer-icon-conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
