@@ -561,6 +561,8 @@ body {
             justify-content: space-between;
     background-color: #ffffff;
     padding: 48px 40px;
+    z-index: 999;
+    pointer-events: none;
     padding: auto;
   }
 }
@@ -1297,6 +1299,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  z-index: 1;
 }
 
 .list__pl__tittle__item {
