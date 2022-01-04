@@ -1275,6 +1275,13 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (vin-width: 768px) {
+  .footer .footer__form__conteiner {
+    width: 450px;
+    margin: auto;
+  }
+}
+
 .footer .footer__form {
   fill: #afb1b8;
 }
