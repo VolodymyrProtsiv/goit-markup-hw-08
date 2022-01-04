@@ -21,6 +21,15 @@ body {
   color: #212121;
 }
 
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .logo {
   display: block;
   font-family: Raleway;
@@ -61,15 +70,6 @@ body {
 
 .logo__part__footer {
   color: #ffffff;
-}
-
-.link {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.list {
-  list-style: none;
 }
 
 .conteiner {
