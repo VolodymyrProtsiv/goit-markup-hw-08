@@ -467,10 +467,24 @@ body {
           justify-content: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 2;
+  font-size: 8px;
+  line-height: 0.8;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media screen and (min-width: 480px) {
+  .modal__checkbox {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__checkbox {
+    font-size: 14px;
+    line-height: 2;
+  }
 }
 
 .modal__checkbox--size {
