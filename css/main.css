@@ -1375,6 +1375,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__input--size {
     margin-bottom: 0px;
+    margin-right: 12px;
   }
 }
 
