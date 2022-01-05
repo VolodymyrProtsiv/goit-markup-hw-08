@@ -165,16 +165,20 @@
     
       color: $bg-pr-col;
       background-color: rgba(33, 150, 243, 0.9);
-      transform: translateY(100%);
+      transform: translateY(101%);
     
       transition: transform $pr-transition;
   
       &--size{
-        padding: 15px 24px;
+        padding: 77px 24px;
 
+        @media screen and (min-width:768px) {
+          
+          padding: 49px 24px;
+        }
         @media screen and (min-width:1200px) {
           
-          padding: 34px 24px;
+          padding: 63px 24px;
         }
   
       }
