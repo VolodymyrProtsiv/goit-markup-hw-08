@@ -1400,9 +1400,9 @@ body {
 }
 
 .footer__form__btn:hover, .footer__form__btn:focus {
-  background-color: var(--hover-btn-col);
-  -webkit-box-shadow: 0px 4px 4px var(--sw-btn);
-          box-shadow: 0px 4px 4px var(--sw-btn);
+  background-color: #188ce8;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer .address {
