@@ -8,6 +8,20 @@
           padding-bottom: 94px;
           padding-top: 94px;
       }
+
+
+      .we-do__tittle{
+        font-weight: 700;
+        font-size: 28px;
+        line-height:1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $pr-col-txt;
+
+        &--size{
+            margin-bottom: 50px;
+        }
+      }
          
       .we-do__list {
         display: flex;
