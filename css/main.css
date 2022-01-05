@@ -627,7 +627,6 @@ body {
     background-color: #ffffff;
     padding: 48px 40px;
     z-index: 999;
-    pointer-events: none;
     padding: auto;
   }
 }
