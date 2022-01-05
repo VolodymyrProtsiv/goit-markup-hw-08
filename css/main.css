@@ -1110,6 +1110,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .team__item--size {
+    width: calc((100% - 120px) / 4);
+  }
+}
+
 .team__conteiner {
   background-color: #ffffff;
 }
