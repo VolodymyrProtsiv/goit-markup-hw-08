@@ -170,7 +170,12 @@
       transition: transform $pr-transition;
   
       &--size{
-        padding: 49px 24px;
+        padding: 15px 24px;
+
+        @media screen and (min-width:1200px) {
+          
+          padding: 34px 24px;
+        }
   
       }
 

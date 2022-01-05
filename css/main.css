@@ -1646,7 +1646,13 @@ body {
 }
 
 .portfolio__cards__text--size {
-  padding: 49px 24px;
+  padding: 15px 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio__cards__text--size {
+    padding: 34px 24px;
+  }
 }
 
 .link__portfolio:hover .portfolio__cards__text,
