@@ -1,8 +1,55 @@
 
     
       .we-do__section{
-          display: none;
+        @media screen  and (max-width:1199px){
+            display: none;
+          }
       }
+         
+      .we-do__list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .we-do__items {
+        position: relative;
+        flex-basis: calc((100% - 60px) / 3);
+        
+    
+        &--size{
+            margin-right: 30px;
+        }
+    
+        &:nth-child(3n) {
+            margin-right: 0;
+          }
+      }
+    
+      
+      .description {
+        position: absolute;
+        bottom: 0;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 70px;
+      
+        background-color: $doptext-col-do;
+      }
+      .description__tittle {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      
+        color: $bg-pr-col;
+      }
+              
+                    
+     
    
 
 
