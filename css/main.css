@@ -1094,7 +1094,6 @@ body {
 
 .we-do__section {
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1271,6 +1270,12 @@ body {
 
 .clients__section--size {
   padding: 60px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__section--size {
+    padding: 94px 0;
+  }
 }
 
 .clients__tittle {
