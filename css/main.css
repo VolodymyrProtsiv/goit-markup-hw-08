@@ -593,6 +593,8 @@ body {
   }
   .icon__mobile {
     fill: currentColor;
+    -webkit-transition: coloar 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: coloar 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .icon__mobile--close {
     position: fixed;
@@ -607,6 +609,11 @@ body {
     position: fixed;
     top: 14px;
     right: 15px;
+    -webkit-transition: coloar 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: coloar 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .close-menu-btn:hover, .close-menu-btn:focus {
+    fill: #2196f3;
   }
   .mobile__menu__conteiner {
     position: fixed;
@@ -638,6 +645,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .nav__list__menu {
+    margin-bottom: 10px;
+  }
   .nav__item {
     margin-bottom: 32px;
   }
@@ -676,10 +686,20 @@ body {
   .contact__link--tel {
     font-weight: 500;
     font-size: 34px;
-    line-height: 40px;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: #2196f3;
   }
+}
+
+@media screen and (max-width: 767px) and (max-width: 479.98px) {
+  .contact__link--tel {
+    font-size: 24px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .social__list {
     display: -webkit-box;
     display: -ms-flexbox;

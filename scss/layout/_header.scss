@@ -45,12 +45,16 @@
 
     .icon__mobile{
         fill:currentColor;
+        
+        transition: coloar $pr-transition;
        
 
         &--close{
-            position: fixed;
+             position: fixed;
             top:14px;
             right: 15px;
+
+           
         }
 
         .btn__mobile:focus>&,
@@ -63,6 +67,15 @@
         position: fixed;
         top:14px;
         right: 15px;
+
+        transition: coloar $pr-transition;
+
+        &:hover,
+        &:focus{
+         fill:$accent-col;
+        }
+
+        
     }
 
     // mobile-conteiner
@@ -103,12 +116,21 @@
 
         
     }
+
+
+    .nav__list__menu{
+        margin-bottom: 10px;
+    }
+
     // top-menu
     .nav__item{
         margin-bottom: 32px;
         &:last-child{
             margin-bottom: 0;
         }
+
+
+       
 
         &__link{
             
@@ -161,9 +183,15 @@
         color: $second-col-txt;
 
         &--tel{
+            @media screen and(max-width:479.98px) {
+
+                font-size: 24px;
+                line-height: 1.7;
+            }
+
             font-weight: 500;
             font-size: 34px;
-            line-height: 40px;
+            line-height: 1.7;
     
             letter-spacing: 0.02em;
     
@@ -173,6 +201,8 @@
        
     }
 
+    
+
     // soc-bottom-menu
     .social__list{
         display: flex;
@@ -180,19 +210,19 @@
     }
 
     .social__item{
-        &--after::after{
-            content: '';
-            margin-left: 10px;
-            border:1px solid rgba(33, 33, 33, 0.2);
+        
+          
+           
+            border-radius:1px solid rgba(33, 33, 33, 0.2);
             width: 22px;
-            transform: rotate(90deg);
+           
         }
 
             
 
         &--size{
             margin-bottom: 3px;
-            margin-right: 10px;
+            margin-left: 10px;
              &:last-child{
                  margin-right: 0;
              }
