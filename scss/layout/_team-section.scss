@@ -2,6 +2,10 @@
     background-color: $bg-lightgrey-col;
     &--size{
         padding: 60px 0;
+        @media screen and(min-width:1200px) {
+          padding: 94px 0;
+        }
+
         
     }
 }
@@ -29,32 +33,37 @@
    @media screen and(min-width:768px) {
      display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    
+    margin: -15px;
     
    }
   
 }
 
 .team__item {
+  margin: 15px;
   
    
     box-shadow:$sw-sect-team;
 
 
     &--size{
-        margin-bottom: 30px;
-        &:last-child{
-          margin-bottom: 0;
+        
+        @media screen and(max-width:768px){
+          margin-bottom: 30px;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        
         }
+         
        
          @media screen and(min-width:768px){
-           width: calc((100% - 60px) / 2);
-           margin-right: 30px;
+           flex-basis: calc((100% - 60px) / 2);
+          //  margin-right: 30px;
           
         }
          @media screen and(min-width:1200px){
-           width: calc((100% - 120px) / 4);
+           flex-basis: calc((100% - 120px) / 4);
          }
 
     }

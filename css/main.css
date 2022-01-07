@@ -963,6 +963,12 @@ body {
   padding: 60px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .skills__sections--size {
+    padding: 94px 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .skills__list {
     display: -webkit-box;
@@ -992,8 +998,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .skills__item {
-    width: 354px;
-    width: calc((100% - 30px) / 2);
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
     margin-right: 30px;
     margin-bottom: 30px;
   }
@@ -1166,6 +1172,12 @@ body {
   padding: 60px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .team__section--size {
+    padding: 94px 0;
+  }
+}
+
 .section__tittle {
   font-weight: 700;
   font-size: 28px;
@@ -1186,33 +1198,36 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-right: -30px;
+    margin: -15px;
   }
 }
 
 .team__item {
+  margin: 15px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team__item--size {
-  margin-bottom: 30px;
-}
-
-.team__item--size:last-child {
-  margin-bottom: 0;
+@media screen and (max-width: 768px) {
+  .team__item--size {
+    margin-bottom: 30px;
+  }
+  .team__item--size:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .team__item--size {
-    width: calc((100% - 60px) / 2);
-    margin-right: 30px;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team__item--size {
-    width: calc((100% - 120px) / 4);
+    -ms-flex-preferred-size: calc((100% - 120px) / 4);
+        flex-basis: calc((100% - 120px) / 4);
   }
 }
 
