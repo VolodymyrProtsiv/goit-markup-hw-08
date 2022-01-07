@@ -16,6 +16,7 @@
     }
 
     &__tb_conteiner{
+        margin-bottom: 60px;
         @media screen and (min-width:768px){
             display: flex;
             justify-content: space-between;
@@ -82,7 +83,7 @@
     // DIV-footer-network  
     &__network{
         &--size{
-            margin-bottom: 60px;
+           
             @media screen and (min-width:1200px){
                 margin-bottom: 0px;
               
@@ -136,6 +137,13 @@
 
         color:  $-link-col;
 
+        transition: color $pr-transition;
+
+        &:focus,
+        &:hover{
+            color: $accent-col;
+        }
+
     }
 }
 
@@ -144,7 +152,7 @@
 
     font-weight:700;
     font-size: 14px;
-    line-height: 1.4px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;

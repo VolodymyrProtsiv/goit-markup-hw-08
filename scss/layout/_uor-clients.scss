@@ -23,7 +23,7 @@
 .clients__list {
     display: flex;
 
-     margin-right: -30px;
+     margin: -15px;
     @media screen and (max-width:1199px){
       flex-wrap: wrap;
     }
@@ -39,8 +39,7 @@
   .clients__item{
     
       &--size{
-        margin-right: 30px;
-        margin-bottom: 30px;
+        margin: 15px;
 
         
           width: calc((100% - 60px) / 2);
