@@ -733,7 +733,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767.98px) {
   .mobile__menu__conteiner {
     display: none;
   }
@@ -802,6 +802,7 @@ body {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    text-align: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -809,6 +810,12 @@ body {
     color: #757575;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact__header--link__mail {
+    padding-top: 16px;
+  }
+  .contact__header--link__tel {
+    padding-bottom: 16px;
   }
   .contact__header--link:hover, .contact__header--link:focus {
     color: #2196f3;

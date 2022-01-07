@@ -253,7 +253,7 @@
 
 // min-width-768px
 
-@media screen and (min-width:768px){
+@media screen and (min-width:767.98px){
     .mobile__menu__conteiner{
         display: none;
     }
@@ -351,6 +351,19 @@
 
         &--link{
             display: inline-flex;
+            text-align: center;
+
+            &__mail{
+
+                padding-top: 16px;
+
+            }
+
+            &__tel{
+
+                padding-bottom: 16px;
+
+            }
             
            
             font-weight: 500;
