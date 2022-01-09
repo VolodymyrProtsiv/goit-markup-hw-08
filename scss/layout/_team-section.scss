@@ -25,6 +25,16 @@
     &--size{
         margin-bottom: 30px;
     }
+    @media screen and (min-width: 1200px){
+      
+      font-size: 36px;
+      line-height: 1.2;
+
+      &--size{
+        margin-bottom: 50px;
+      }
+     
+    }
 
 }
 
@@ -91,6 +101,7 @@
     &--size{
       margin-bottom: 10px;
     }
+    
    
   }
 

@@ -1115,6 +1115,16 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 1200px) {
+  .we-do__tittle {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .we-do__tittle--size {
+    margin-bottom: 50px;
+  }
+}
+
 .we-do__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1188,6 +1198,16 @@ body {
 
 .section__tittle--size {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section__tittle {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .section__tittle--size {
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1289,6 +1309,16 @@ body {
 
 .clients__tittle--size {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__tittle {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .clients__tittle--size {
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {
