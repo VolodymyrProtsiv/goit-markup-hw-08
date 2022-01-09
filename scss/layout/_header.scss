@@ -84,10 +84,10 @@
         top:0;
         left:0;
 
-        //  transform: translateY(100%);
-        // //  overflow: hidden;
+        //   transform: translateY(100%);
+        //   overflow: hidden;
 
-        //   transition: transform $pr-transition;
+          transition:  transform  $pr-transition;
 
 
         width: 100vw;
@@ -108,14 +108,14 @@
         }
         padding: auto;
 
-        //  &:focus,
-        //  &:hover{
-        //     transform: translateY(0%);
-        // }
-
+        
+        
 
         
     }
+
+    
+
 
 
     .nav__list__menu{
