@@ -30,6 +30,8 @@
             
             padding-right: 0px;
             padding-left: 0px;
+            margin-bottom: 0;
+            margin-right: auto;
         }
 
        
@@ -39,6 +41,7 @@
     @media screen and (min-width:1200px){
         display: flex;
         margin-bottom: 0;
+        align-items: baseline;
     }
 
    }
@@ -158,6 +161,9 @@
     text-transform: uppercase;
 
     color:$bg-pr-col;
+    @media screen and (min-width:1200px){
+        text-align: start;
+    }
 
     &--size{
         margin-bottom: 20px;
@@ -171,6 +177,12 @@
         width: 450px;
         margin: auto;
         
+    }
+    @media screen and (min-width:1200px){
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        width: auto;
     }
 
     
@@ -235,6 +247,7 @@
 
 .icon-send {
     fill: currentColor;
+    margin-left: 10px;
   }
   .footer-icon-conteiner {
     display: flex;
