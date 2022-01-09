@@ -2,12 +2,16 @@
     position: relative;
     background-color: $bg-pr-col;
     border-bottom: 1px solid $br-solid-col;
+   
 
     &__open__mobile{
         
         display: flex;
         align-items: center;
     }
+}
+.mobile__menu__conteiner .is-hidden{
+    pointer-events: none;
 }
 
 

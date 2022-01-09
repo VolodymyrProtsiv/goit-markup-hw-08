@@ -571,6 +571,10 @@ body {
           align-items: center;
 }
 
+.mobile__menu__conteiner .is-hidden {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 767px) {
   .nav__header {
     display: none;
