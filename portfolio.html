@@ -36,13 +36,13 @@
                     <nav class="nav__header">
                         <ul class="nav__header--list list">
                             <li class="nav__header--item">
-                                <a class="nav__header--link link "  href="./index.html"
+                                <a class="nav__header--link link"  href="./index.html"
                                 >Студия
                                 </a>
                             </li>
 
                             <li class="nav__header--item">
-                                <a class="nav__header--link link active"  href="./portfolio.html"
+                                <a class="nav__header--link link  active"  href="./portfolio.html"
                                 >Портфолио
                                 </a>
                             </li>
@@ -74,7 +74,9 @@
             
                
             <!--btn-mobile-menu-->
-            <button class= "btn__mobile open-menu-btn" type="button">
+            <button class= "btn__mobile js-open-menu" 
+                aria-expanded="false"
+                aria-controls="mobile-menu" type="button">
                 <svg class="icon__mobile" width="24" height="16">
                   
                     <use class="open" href="./img/icon.svg#icon-menu"></use>
@@ -87,10 +89,9 @@
 
         
         <!--mob-menu-conteiner--> 
-        <div class="mobile__menu__conteiner mob-menu  is-hidden">
-
-           
-                <button class= "btn__mobile close-menu-btn" type="button">
+        <div class=" mobile__menu_div"  id="mobile-menu">
+            <div class="mobile__menu__conteiner js-menu" >
+                <button class= "btn__mobile js-close-menu .close__menu__btn" type="button">
                     <svg class=" icon__mobile--close" width="40" height="40">
                         <use class="open" href="./img/icon.svg#icon-close"></use>
                     </svg>
@@ -100,10 +101,10 @@
                             <nav class="nav nav__menu">
                                 <ul class="nav__list__menu list">
                                     <li class="nav__item">
-                                        <a class="link nav__item__link " href="./index.html">Студия</a>
+                                        <a class="link nav__item__link  " href="./index.html">Студия</a>
                                     </li>
                                     <li class="nav__item">
-                                        <a class="link nav__item__link  active__mob" href="./portfolio.html">Портфолио</a>
+                                        <a class="link nav__item__link active__mob" href="./portfolio.html">Портфолио</a>
                                     </li>
                                     <li class="nav__item">
                                         <a class="link nav__item__link" href="">Контакты</a>
@@ -139,9 +140,13 @@
                                     </li>
                                 </ul> 
                             </div>
+            </div>
         </div>
+           
+                
     </div>
 </header>
+
 <!-- portfolio-filtr -->   
     <section class="  section__filtr section__filtr--size">
      

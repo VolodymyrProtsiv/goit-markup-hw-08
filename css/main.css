@@ -1713,7 +1713,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .list__pl__tittle {
-    margin-right: -30px;
+    margin: -15px;
   }
 }
 
@@ -1729,7 +1729,7 @@ body {
 @media screen and (min-width: 768px) {
   .list__pl__tittle__item--size {
     width: calc((100% - 60px) / 2);
-    margin-right: 30px;
+    margin: 15px;
   }
 }
 
