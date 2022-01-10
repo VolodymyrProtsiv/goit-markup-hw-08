@@ -19,31 +19,30 @@
 
 </head>
 <body>
-<!-------------------------------- header ----------------------------------->
-<!-------------------------------- header ----------------------------------->
+<!-- header -->
 <header class="header">
         
     <div class="conteiner">
 
-        <!------------------------------ mobile-menu ----------------------------------->
-        <div class="header__open__mobile ">
+        <!--mobile-menu -->
+        <div class="header__open__mobile  ">
 
                     
-                    <!------------------------------ logo-menu ----------------------------------->
+                    <!--logo-menu-->
                     <a class="logo logo--size link " href="./index.html">
                     Web<span class="logo__part__header">Studio</span></a>
 
-                    <!------------------------------ nav-menu ----------------------------------->
+                    <!--nav-menu-->
                     <nav class="nav__header">
                         <ul class="nav__header--list list">
                             <li class="nav__header--item">
-                                <a class="nav__header--link link"  href="./index.html"
+                                <a class="nav__header--link link active"  href="./index.html"
                                 >Студия
                                 </a>
                             </li>
 
                             <li class="nav__header--item">
-                                <a class="nav__header--link link  active"  href="./portfolio.html"
+                                <a class="nav__header--link link"  href="./portfolio.html"
                                 >Портфолио
                                 </a>
                             </li>
@@ -56,17 +55,17 @@
                         </ul>
                     </nav>
 
-                    <!------------------------------ contact-menu ----------------------------------->
+                    <!--contact-menu-->
                     <ul class="contact__header contact__header--size list">
                         <li class="contact__header--item">
-                            <a class="contact__header--link link" href="">
+                            <a class="contact__header--link link contact__header--link__mail" href="">
                                 <svg class="icon__postbox" width="16" height="12">
                                     <use href="./img/icon.svg#icon-postbox"></use>
                                 </svg>info@devstudio.com</a>
                                 
                         </li>
                         <li class="contact__header--item">
-                            <a class="contact__header--link link" href="tel:+380961111111">
+                            <a class="contact__header--link link contact__header--link__tel" href="tel:+380961111111">
                                 <svg class="icon__mobtel" width="10" height="16">
                                     <use href="./img/icon.svg#icon-mobtel"></use>
                                  </svg>+38 096 111 11 11</a> 
@@ -74,7 +73,7 @@
                     </ul>
             
                
-            <!------------------------------ btn-mobile-menu ----------------------------------->
+            <!--btn-mobile-menu-->
             <button class= "btn__mobile open-menu-btn" type="button">
                 <svg class="icon__mobile" width="24" height="16">
                   
@@ -87,78 +86,63 @@
         
 
         
-        <!------------------------------ mob-menu-conteiner -----------------------------------> 
+        <!--mob-menu-conteiner--> 
         <div class="mobile__menu__conteiner mob-menu  is-hidden">
 
            
-                <button class= "btn__mobile close-menu-btn" type="button"  
-                aria-expanded="false"
-                aria-controls="mobile-menu">
-                    <svg class="icon__mobile icon__mobile--close" width="40" height="40">
-                    
+                <button class= "btn__mobile close-menu-btn" type="button">
+                    <svg class=" icon__mobile--close" width="40" height="40">
                         <use class="open" href="./img/icon.svg#icon-close"></use>
-                        
                     </svg>
-                
                 </button>
 
+                            <!--nav-mob-menu-->    
+                            <nav class="nav nav__menu">
+                                <ul class="nav__list__menu list">
+                                    <li class="nav__item">
+                                        <a class="link nav__item__link  active__mob" href="./index.html">Студия</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="link nav__item__link" href="./portfolio.html">Портфолио</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="link nav__item__link" href="">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                            <!--contacts-mob-menu-->                
+                            <div class="bottom-conteiner">
+                                <ul class="contacts__list contacts__list--size list">
+                                    <li class="contact__item contact__item--tel">
+                                        <a class="contact__link link contact__link--tel" href="tel:+380961111111">
+                                            +38 096 111 11 11</a>
+                                    </li>
+                                    <li class="contact__item">
+                                        <a class="contact__link link" href="">info@devstudio.com</a>
+                                    </li>
+                                </ul>
                 
-                <!------------------------------ nav-mob-menu ----------------------------------->    
-                <nav class="nav nav__menu">
-                    <ul class="nav__list__menu list">
-                        <li class="nav__item">
-                            <a class="link nav__item__link  " href="./index.html">Студия</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="link nav__item__link active__mob" href="./portfolio.html">Портфолио</a>
-                        </li>
-                        <li class="nav__item">
-                            <a class="link nav__item__link" href="">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!------------------------------ contacts-mob-menu ----------------------------------->                
-                <div class="bottom-conteiner">
-                    <ul class="contacts__list contacts__list--size list">
-                        <li class="contact__item contact__item--tel">
-                            <a class="contact__link link contact__link--tel" href="tel:+380961111111">
-                                +38 096 111 11 11</a>
-                        </li>
-                        <li class="contact__item">
-                            <a class="contact__link link" href="">info@devstudio.com</a>
-                        </li>
-                    </ul>
-    
-                    <!------------------------------ social-mobile-menu ----------------------------------->     
-                    <ul class="social__list list">
-                        <li  class="social__item social__item--size social__item--after">
-                            <a class="social__link link" href="">Instagram</a>
-                        </li>
-                        <li class="social__item social__item--size social__item--after">
-                            <a class="social__link link" href="">Twitter</a>
-                        </li>
-                        <li class="social__item social__item--size social__item--after">
-                            <a class="social__link link" href="">Facebook</a>
-                        </li>
-                        <li class="social__item social__item--size">
-                            <a class="social__link link" href="">LinkedIn</a>
-                        </li>
-                    </ul> 
-            
-           </div>
-       </div>
-
-       
-   
-       
-        
-           
-
-            
+                                <!--social-mobile-menu-->     
+                                <ul class="social__list list">
+                                    <li  class="social__item social__item--size social__item--after">
+                                        <a class="social__link link" href="">Instagram</a>
+                                    </li>
+                                    <li class="social__item social__item--size social__item--after">
+                                        <a class="social__link link" href="">Twitter</a>
+                                    </li>
+                                    <li class="social__item social__item--size social__item--after">
+                                        <a class="social__link link" href="">Facebook</a>
+                                    </li>
+                                    <li class="social__item social__item--size">
+                                        <a class="social__link link" href="">LinkedIn</a>
+                                    </li>
+                                </ul> 
+                            </div>
+        </div>
     </div>
 </header>
-<!------------------------------ portfolio-filtr ----------------------------------->   
+<!-- portfolio-filtr -->   
     <section class="  section__filtr section__filtr--size">
      
         <h1 class="is-hidden" >Portfolio page</h1>
@@ -182,7 +166,7 @@
                 </li>
                 
             </ul>
- <!------------------------------ portfolio-cards ----------------------------------->              
+ <!-- portfolio-cards -->              
             <ul class=" list  list__pl__tittle">
                 <li class="list__pl__tittle__item list__pl__tittle__item--size">
                    
@@ -501,12 +485,12 @@
     </section>
     
 
-<!-------------------------------- footer ----------------------------------->        
+<!-- footer -->        
 <footer class="footer footer--size ">
     <div class="conteiner conteiner--footer">
         <div class="footer__desk__conteiner">
             <div class="footer__tb_conteiner">
-                <!-------------------------------- contact-footer ----------------------------------->   
+                <!-- contact-footer -->   
                     <div class="footer__contact footer__contact--size">
                         <a href="./index.html" class=" link logo  logo--footer">
                             Web<span class="logo__part__footer">Studio</span></a>
@@ -521,14 +505,14 @@
                                             info@devstudio.com</a>
                                     </li>
                                     <li class="address__item address__item-size">
-                                        <a class="address__link link"href="tel:+380961111111">
+                                        <a class="address__link link" href="tel:+380961111111">
                                             +38 096 111 11 11</a>
                                     </li>
                                 </ul>
                             </address> 
                     </div>
 
-                <!-------------------------------- soc-network-footer ----------------------------------->
+                <!-- soc-network-footer -->
                 <div class="footer__network footer__network--size">
                     <p class="footer__tittle footer__tittle--size">присоединяйтесь</p>
                     <ul class=" list list__social">
@@ -564,7 +548,7 @@
                 </div>
             </div>
 
-            <!-------------------------------- form-footer ----------------------------------->
+            <!-- form-footer -->
             <div class="footer__form__conteiner">
                 <p class="footer__tittle footer__tittle--size">Подпишитесь на рассылку</p>
                 <form class="footer__form" name="signup_form" autocomplete="on" novalidate >
