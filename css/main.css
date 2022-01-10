@@ -1643,7 +1643,7 @@ body {
             justify-content: center;
   }
   .list__filtr--size {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .list__filtr--size__item:last-child {
     margin-right: 0;
@@ -1658,8 +1658,10 @@ body {
   margin-right: 8px;
 }
 
-.list__filtr--size__item {
-  margin-bottom: 8px;
+@media screen and (max-width: 767px) {
+  .list__filtr--size__item {
+    margin-bottom: 15px;
+  }
 }
 
 .btn__item {
@@ -1773,6 +1775,12 @@ body {
 
 .portfolio__cards__text--size {
   padding: 77px 24px;
+}
+
+@media screen and (max-width: 479px) {
+  .portfolio__cards__text--size {
+    overflow: scroll;
+  }
 }
 
 @media screen and (min-width: 768px) {

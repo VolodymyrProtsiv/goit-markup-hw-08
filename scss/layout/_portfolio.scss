@@ -17,7 +17,7 @@
         justify-content: center;
 
         &--size{
-            margin-bottom: 50px;
+            margin-bottom: 40px;
         }
 
         &--size__item:last-child {
@@ -31,13 +31,16 @@
     &--size{
         margin-bottom: 40px;
     }
-    &--size__item{
-        margin-right: 8px;
-    }
+    
 
 
     &--size__item {
-         margin-bottom: 8px;
+      @media screen  and (max-width:767px){
+        margin-bottom: 15px;
+
+      }
+         
+         margin-right: 8px;
        }
   }
 
@@ -173,6 +176,10 @@
   
       &--size{
         padding: 77px 24px;
+        @media screen and (max-width:479px) {
+          overflow: scroll;
+        }
+        
 
         @media screen and (min-width:768px) {
           
