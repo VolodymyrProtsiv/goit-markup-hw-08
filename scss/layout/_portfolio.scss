@@ -138,7 +138,9 @@
 // width: 370px;  1200px
   
   .link__portfolio {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    
     transition: box-shadow $pr-transition;
 
     height: 100%;
@@ -195,6 +197,7 @@
   
   .conteiner--portfolio {
     padding: 20px 24px;
+    flex-grow: 1;
     
 
   }

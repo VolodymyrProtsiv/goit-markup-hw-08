@@ -89,9 +89,9 @@
         left:0;
 
         
-          
+        //    transform: translateX(100%);
 
-          transition:  translateX  $pr-transition;
+        //   transition: transform  $pr-transition;
 
 
         width: 100vw;
@@ -112,19 +112,16 @@
         }
         padding: auto;
 
-         
+       
         
+        
+        
+    }
+   
 
-        
-    }
-    .mobile__menu__conteiner > .is-hidden{
-        transform: translateX(0%);
-        transition:  translateX  $pr-transition;
-    }
-    .btn__mobile :hover + .mobile__menu__conteiner{
-        transform: translateX(100%);
-        transition:  translateX  $pr-transition;
-    }
+    
+   
+    
 
     
 

@@ -457,9 +457,9 @@ body {
 
 .modal__checkbox {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -468,16 +468,16 @@ body {
           justify-content: center;
   font-style: normal;
   font-weight: normal;
-  font-size: 9px;
-  line-height: 0.8;
+  font-size: 12px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .modal__checkbox {
-    font-size: 12px;
-    line-height: 1.2;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -539,6 +539,13 @@ body {
 .modal__checkbox--title__par {
   margin-right: 5px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .modal__checkbox--title__par {
+    margin: 5px 0;
+    text-align: center;
+  }
 }
 
 .checkbox__icon {
@@ -619,8 +626,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    -webkit-transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100vw;
     height: 100vh;
     display: -webkit-box;
@@ -647,18 +652,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .mobile__menu__conteiner > .is-hidden {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    -webkit-transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .btn__mobile :hover + .mobile__menu__conteiner {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    -webkit-transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: translateX 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   .nav__list__menu {
     margin-bottom: 10px;
   }
@@ -1739,7 +1732,13 @@ body {
 }
 
 .link__portfolio {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1796,6 +1795,9 @@ body {
 
 .conteiner--portfolio {
   padding: 20px 24px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .portfolio__item__tittle {
