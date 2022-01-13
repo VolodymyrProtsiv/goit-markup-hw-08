@@ -52,7 +52,11 @@
     // DIV-footer-contact
         &__contact{
             &--size{
+
                 margin-bottom: 60px;
+                @media screen and (min-width:768px){
+                    margin-bottom: 0;
+                }
                 @media screen and (min-width:1200px){
                     margin-bottom: 0px;
                     margin-right: 70px;
