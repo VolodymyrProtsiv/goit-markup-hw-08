@@ -470,6 +470,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-style: normal;
@@ -480,11 +483,10 @@ body {
   color: #757575;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
   .modal__checkbox {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    font-size: 10px;
+    line-height: 1.2;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }

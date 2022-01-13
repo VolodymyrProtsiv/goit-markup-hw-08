@@ -193,10 +193,11 @@
    align-items: center;
     justify-content: center;
     
-    
-   
-   @media screen and (max-width:480px){
     display: inline-flex;
+   
+   @media screen and (max-width:479px){
+    font-size: 10px;
+    line-height: 1.2;
     flex-wrap: wrap;
    }
    
